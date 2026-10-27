@@ -30,3 +30,6 @@
 @media(max-width:760px){.category-card{min-height:185px}.hero-showcase{height:400px;margin-top:25px;margin-bottom:10px}.hero-showcase .showcase-slides{width:100%;min-height:0;height:340px}.hero-showcase .showcase-image{width:310px;height:310px;max-width:88%;margin-top:18px}.hero-showcase .art-link{bottom:61px;right:12px;width:220px;min-height:85px}.hero-showcase .art-link>span{font-size:13px}.showcase-controls{bottom:6px}.hero-showcase .art-caption{top:8px}}
 @media(max-width:400px){.category-card{padding:21px 14px}.category-card h3{font-size:12px}.category-top svg{width:25px;height:25px}}
 @media(prefers-reduced-motion:reduce){.hero-showcase .showcase-image,.showcase-dots span{transition:none}}
+
+.spec-value-line{display:block}.spec-value-line+.spec-value-line{margin-top:6px}.spec-footnote{font-size:12px;color:var(--muted);line-height:1.7;margin-top:18px}.product-specifications th{vertical-align:top}.product-specifications td{line-height:1.7}
+
