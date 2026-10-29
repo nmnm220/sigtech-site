@@ -33,3 +33,11 @@
 
 .spec-value-line{display:block}.spec-value-line+.spec-value-line{margin-top:6px}.spec-footnote{font-size:12px;color:var(--muted);line-height:1.7;margin-top:18px}.product-specifications th{vertical-align:top}.product-specifications td{line-height:1.7}
 
+.equipment-configurator{margin-bottom:36px}.configuration-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:start}.configuration-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.configuration-fields label{display:flex;flex-direction:column;gap:8px;font-size:13px}.configuration-fields input,.configuration-fields select{width:100%;min-width:0;background:#fff;border:1px solid #d5dde1;padding:12px;font:inherit;color:inherit}.configuration-fields input[readonly]{background:#f1f3f4}.configuration-code{padding:20px;background:#edf1f3;margin-top:24px}.configuration-code output{display:block;overflow-wrap:anywhere;font-size:17px;font-weight:600;line-height:1.7;margin:10px 0 18px}.configuration-note{font-size:12px;line-height:1.7;margin-top:16px}.configuration-layout .cad-viewer{position:sticky;top:24px;margin-top:0}.configuration-layout .cad-heading h3{overflow-wrap:anywhere}.configuration-reference td{white-space:pre-line}.configuration-reference{margin-top:18px}.equipment-configurator>h3{margin-top:32px}.configuration-download-name{overflow-wrap:anywhere;font-size:11px}
+@media(max-width:1100px){.configuration-layout{grid-template-columns:minmax(0,1fr)}.configuration-layout .cad-viewer{position:static}}@media(max-width:480px){.configuration-fields{grid-template-columns:minmax(0,1fr)}.configuration-code{padding:14px}.configuration-code output{font-size:14px}}
+
+.documentation-product-filter{display:flex;gap:12px;align-items:center;margin-bottom:24px}.documentation-product-filter select{padding:12px;border:1px solid #d5dde1;max-width:100%;min-width:0}.archived-drawings{margin:36px 0}.archived-drawings summary{cursor:pointer;font-weight:600;padding:18px 0}
+
+
+.tab-content.configuration-panel{max-width:none;width:100%}
+
